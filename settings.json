@@ -1,0 +1,13 @@
+{
+    "target": {
+        "open-ports": [
+            80,
+            443
+        ]
+    },
+    "output": {
+        "active-targets": "./active.targets",
+        "ok-targets": "./ok.targets",
+        "append-status-code": true
+    }
+}
